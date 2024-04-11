@@ -1,0 +1,28 @@
+:root {
+    --custom-gold: #CEA350;
+}
+
+.btn-primary {
+    background-color: var(--custom-gold) !important;
+    border-color: var(--custom-gold) !important;
+}
+
+.navbar-brand {
+    color: var(--custom-gold) !important;
+}
+
+.bi {
+    color: var(--custom-gold) !important;
+}
+
+.link-offset-2 {
+    color: var(--custom-gold) !important;
+}
+
+#skipnav a {
+    top: -40px;
+}
+
+#skipnav a:focus {
+    top: 0;
+}

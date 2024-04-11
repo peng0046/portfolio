@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rui Peng</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body class="m-3 p-5">
+    <div id="skipnav">
+        <a href="#main-content" aria-label="Skip to main content"
+            class="position-absolute link-offset-2 link-underline link-underline-opacity-0 fw-bold bg-warning text-white p-2">Skip
+            to main
+            content
+        </a>
+    </div>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold" href="index.html">Rui Peng</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="portfolio.html">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <h5 class="fw-bold text-center m-5">My Projects</h5>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4 text-center">
+            <div class="col">
+                <div class="card">
+                    <picture>
+                        <source media="(min-width: 760px)" srcset="images/project-1-4x.png">
+                        <img src="images/project-1-3x.png" class="card-img-top" alt="project-1">
+                    </picture>
+
+                    <div class="card-body">
+                        <a href="https://peng0046.github.io/mtm6201-midterm/index.html" class="btn btn-primary m-3">Web
+                            Development</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <picture>
+                        <source media="(min-width: 760px)" srcset="images/project-2-4x.png">
+                        <img src="images/project-2-3x.png" class="card-img-top" alt="project-2">
+                    </picture>
+
+                    <div class="card-body">
+                        <a href="https://peng0046.myportfolio.com/" class="btn btn-primary m-3">Photography</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="card-footer bg-white text-center fixed-bottom p-3">
+        &copy; 2024 Rui Peng
+    </div>
+</body>
+
+</html>
